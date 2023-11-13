@@ -1,0 +1,69 @@
+body {
+  font-family: "Poppins";
+  background-color: rgb(240, 247, 255);
+}
+.menu {
+  margin-left: 0.6em;
+}
+.menu h2 {
+  border-bottom: 1px solid black;
+  width: 80px;
+  margin-bottom: 1em;
+}
+.menu li {
+  margin-top: 0.4em;
+}
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-anchor {
+  text-decoration: none;
+  color: rgb(99, 154, 255);
+  font-size: 19px;
+  position: relative;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.menu-anchor:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.menu-anchor:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  transition: width 0.3s ease;
+}
+
+.menu-anchor:hover:after {
+  width: 100%;
+}
+
+.footer {
+  margin-left: 0.6em;
+}
+
+.footer li {
+  margin-top: 0.3em;
+}
+
+.refresh ol {
+  position: absolute;
+  bottom: 0;
+}
+
+.refresh a {
+  text-decoration: none;
+  color: blue;
+}
+
+.refresh a:hover {
+  color: blueviolet;
+}

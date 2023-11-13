@@ -1,0 +1,164 @@
+body {
+  font-family: "Poppins";
+}
+/* FOOTER SOSMED */
+* {
+  padding: 0;
+  margin: 0;
+}
+.homepage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.4em;
+}
+.vert-move {
+  width: 38%;
+  margin: 10px;
+  margin-top: 1.8em;
+  filter: drop-shadow(20px 20px 10px rgb(133, 133, 133));
+}
+h1 {
+  line-height: 38px;
+  text-align: left;
+  font-style: italic;
+  color: #090c36;
+}
+h1 span {
+  color: gray;
+}
+h1 span1 {
+  font-size: 15px;
+  color: black;
+  font-style: italic;
+}
+h1 span2 {
+  color: #054974;
+}
+
+img.vert-move {
+  -webkit-animation: mover 0.8s infinite alternate;
+  animation: mover 0.8s infinite alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 0.8s infinite alternate;
+  animation: mover 0.8s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* MENU RANGKUMAN */
+.rangkum {
+  width: 400px;
+}
+
+.bakso {
+  margin-top: 15em;
+}
+.bakso h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.bakso li {
+  margin-left: 3em;
+  width: 450px;
+  margin-bottom: 3em;
+}
+
+.ramen li {
+  margin-left: 3em;
+  width: 450px;
+  margin-bottom: 3em;
+}
+
+.pizza li {
+  margin-left: 3em;
+  width: 450px;
+  margin-bottom: 3em;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.ramen ol {
+  margin-top: 5em;
+}
+
+.pizza ol {
+  margin-top: 5em;
+}
+
+.makanan {
+  color: rgb(99, 154, 255);
+  text-decoration: none;
+}
+.makanan:hover {
+  color: rgb(83, 83, 255);
+}
+
+/* FOOTER */
+
+.footer-anchor {
+  background-color: rgb(170, 217, 255);
+  padding: 1.1em 0 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: #090c36;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin-top: 0.3em;
+  font-style: italic;
+}
+ul {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  margin-right: 1em;
+  list-style-type: none;
+}
+
+/* WARNA LOGO */
+.logo {
+  margin-left: 1em;
+}
+.instagram {
+  display: inline-block;
+  height: 32px;
+  border-radius: 20px;
+  color: #ffffff;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.youtube {
+  color: red;
+}
+.discord {
+  color: #738adb;
+}
